@@ -2,6 +2,9 @@ from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 import pandas as pd
 
+# scrapping počtu narozených dětí dle krajů mezi lety 2018-2013
+# následné vytvoření DF k importu pro analýzu
+
 def extract_first_two_columns(html_content):
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(html_content, 'html.parser')
