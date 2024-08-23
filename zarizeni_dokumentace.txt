@@ -1,0 +1,55 @@
+Níže uvedené bylo ručně dohledáváno(na internetu, případně přímo v datech) a poté roztřízeno. 
+Následně bude relativní správnost rozřazení dat ověřeno pomocí jednoduchých skriptů/dotazů 
+a příslušně popsáno a vysvětleno (rovnou v ipynb souboru s názvem "").
+
+ZarizeniTyp z dat VYŘAZENO:
+Školní jídelna                                           
+Školní družina                                        
+Školní jídelna - výdejna                                
+Školní klub                                              
+Domov mládeže                                          
+Dům dětí a mládeže                                       
+Dětský domov                                             
+Speciálně pedagogické centrum                             
+Internát                                                  
+Zařízení pro další vzdělávání pedagogických pracovníků      
+Jazyková škola s právem státní jazykové zkoušky             
+Středisko volného času                                      
+Výdejna lesní mateřské školy                                
+Školní jídelna - vývařovna                                  
+Pedagogicko-psychologická poradna                           
+Středisko výchovné péče                                     
+Dětský domov se školou - KAPACITY JSOU OBSAŽENY JIŽ ZÁKLADNÍCH ŠKOLÁCH, JEDNALO BY SE O DUPLICITY, jednotka je lůžko
+Školní hospodářství                                         
+Výchovný ústav                                              
+Školní knihovna                                             
+Stanice zájmových činností                                 
+Diagnostický ústav                                          
+Středisko služeb školám                                      
+Plavecká škola                                               
+Jiné účelové zařízení                                        
+Škola v přírodě                                              
+Středisko volného času - dům dětí a mládeže                  
+Centrum volného času                                        
+Městský dům dětí a mládeže                                   
+Školské zařízení pro zájmové vzdělávání                      
+Středisko pro volný čas dětí a mládeže Všenory              
+Středisko volného času DRAK                                  
+Dům dětí a mládeže Hlinsko                                   
+Školní družina s polským jazykem vyučovacím 
+Školní družina s p.j.v.   
+
+ZarizeniTyp PONECHÁNO:
+Mateřská škola                                           
+Základní škola                                            
+Střední škola                                            
+Základní umělecká škola                                   
+Vyšší odborná škola                                       
+Mateřská škola (lesní mateřská škola)                     
+Středisko praktického vyučování  - učební obory, hlouběji ve struktuře se dají najít podrobnosti o oborech včetně jejich kapacity, které MOHOU BÝT VYŠŠÍ, než je celková kapacita ředitelství, respektive dané školy. Je to dané tím, že některé obory jsou již končící. Lze také usuzovat, že škola může otevřít ty obory o xy kapacitách, o které je zájem, maximálně však do výše kapacity ředitelství. Dle lehkého průzkumu v datech vs na stránkách školy, v datech má škola např. oficiálně 3 aktuální běžící obory (z toho jeden dobíhající) o celkových kapacitách 174 žáků a na svých stránkách uvádí jen 1 obor o kapacitách 58 žáků, ředitelství v datech má kapacitu 58 žáků.                            
+Konzervatoř                                                
+Přípravný stupeň základní školy speciální                   
+Mateřská škola - Przedszkole                                 
+Mateřská škola s p.j.v.                                      
+Základní škola s polským jazykem vyučovacím                                         
+Základní škola - Szkoła Podstawowa                           
