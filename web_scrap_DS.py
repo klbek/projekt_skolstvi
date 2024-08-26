@@ -35,6 +35,6 @@ if table:
                 capacity_number = match.group(1).replace(' ', '')
                 capacity_after_br.append(capacity_number)
 
-i = {'Region': regions,
+i = {'Kraj': regions,
      'Kapacita': capacity_after_br}
 DS_tabulka = pd.DataFrame(i)
