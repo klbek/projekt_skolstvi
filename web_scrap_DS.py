@@ -40,4 +40,17 @@ i = {'Kapacita': capacity_after_br,
 
 DS_tabulka = pd.DataFrame(i)
 DS_tabulka.insert(loc=0, column='ZarizeniTyp', value='Dětská skupinka')
+
+def rename_kraj(kraj):
+    if kraj == "Hlavní město Praha":
+        return kraj
+    elif kraj == "Vysočina":
+        return "Kraj Vysočina"
+    elif kraj.endswith("ký"):
+        return kraj + " kraj"
+    else:
+        return kraj 
+
+DS_tabulka['Kraj'] = DS_tabulka['Kraj'].apply(rename_kraj)
+
 # print(DS_tabulka)
