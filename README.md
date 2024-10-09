@@ -1,6 +1,11 @@
 # Modelace skutečné a využívané kapacity školkých zařízení v ČR
 
-Tento repozitář obsahuje skripty, výstupní soubory a vizualizace pro zjištění, zda jsou kapacity školkých zařízení ČR - konkrétně Mateřské školy - dostupné pro její obyvatele. Výstupní data mohou sloužit pouze pro modelaci dostupnosti kapacit pro školní rok 2023/2024, pouze pro Mateřské školy a s jemným zkreslením.
+Tento repozitář obsahuje skripty, výstupní soubory a vizualizace pro zjištění, zda jsou kapacity školkých zařízení ČR - konkrétně Mateřské školy - dostupné pro její obyvatele. Výstupní data mohou sloužit pouze pro modelaci dostupnosti kapacit pro školní rok 2023/2024[^1], pouze pro Mateřské školy a s jemným zkreslením[^2].
+
+[^1]: Pro přesnější výsledky bychom potřebovali datovou sadu kapacit školských zařízení z roku 2023 (nejlépe ze srpna). Data však máme jen aktuální k 8.8.2024. Není věcí častou a jednoduchou navyšovat/snižovat kapacity školských zařízení (i zakládat nová zařízení), proto pracujeme alespoň s těmito údaji, které nám mohou výsledky spíše jen mírně zkreslit.   
+
+[^2]: Jemným zkreslení je myšleno použití aktuálnějších dat kapacit šk. kapacit (viz. bod výše), rozpočítané porodnosti ve 3.kvartálech pro zjištění, kolik dětí je cca narozených do 31.srpna (pro výpočet nároku na MŠ za 3 roky), v pár případech nedostatečně vyplněné adresy použit Copilot od Microsoftu k přiřazení kraje (náhodně testováno, zda se jedná o správný výsledek), v případě, že školské zařízení působí ve vícero krajích (kapacity nejsou v datech členěny), tak dle vlastního uvážení jsou kapacity přiřazeny do konktrétních krajů, aby se uměle v datech nenavyšovaly kapacity. 
+
 
 ## O datech
 Během práce s daty se bohužel hlavní zdrojová (open) data ukázala jako nedostatečná pro dlouhodobé (i retrospektivní) modelování a to z důvodu jejich časové aktuálnosti (datová sada je aktualizována 3x do týdne). 
