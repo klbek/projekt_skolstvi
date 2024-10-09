@@ -17,17 +17,17 @@ V případě dodaní dat by se musely skripty zásadně předělat, místo form�
 Data byla dávána do kontextů pouze na úrovni krajů, protože podrobnější data u porodnosti, reálné návštěvnosti MŠ, chybí. 
 
 ### Kapacity školských zařízení
-Hlavní zdrojová data jsou dostupná vždy s aktuálními informacemi v [Národním katalogu otevřených dat](https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A9-sady%2F00022985%2F63989c80e16fc31c77e23ab529c76b52#str%C3%A1nka-nenalezena) ve formátu xml.
+Hlavní zdrojová data jsou dostupná vždy s aktuálními informacemi v [Národním katalogu otevřených dat](https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A9-sady%2F00022985%2F63989c80e16fc31c77e23ab529c76b52#str%C3%A1nka-nenalezena) ve formátu .xml.
 
-Při zpracování dat bylo vytvořeno vlastní [schéma](schemas_diagrams/diagram_dat_ skol.jpeg) rozpadu/větvení dat, které bylo postupně upravováno.
+Při zpracování dat bylo vytvořeno vlastní [schéma](schemas_diagrams/diagram_dat_skol.jpeg) rozpadu/větvení dat, které bylo postupně upravováno.
 Následně byl vytvořen [ER diagram](schemas_diagrams/ERD_tabulky.jpeg), který byl podklad nejen pro samotnou práci s daty, ale pro základní zpracování raw dat do samostaných tabulek. 
 
 ER diagram je vytvořený především pro zpracování dat Mateřských škol, lze na něj ovšem snadno navázat a rozšířit jej i na základní, střední školy, konzervatoře aj. 
 
-ER diagram obsahuje i schéma vysvětlující mírně nestandartní manipulaci s daty pro zjištění lokace (kraje) každého zařízení. Vzhledem k různorodosti a neúplnosti dat byly zvoleny pomalejší vlastní funkce na místo funkcí z knihovny Pandas. V závěru pak bylo využito AI Copilot od Microsoftu, který pomohl přiřadit kraj k nestandardnímu a velmi různorodému zápisu adres (např. parcela dle KÚ) nebo k adrese, jejíž PSČ náleželo do dvou krajů. 
+ER diagram obsahuje i schéma vysvětlující mírně nestandartní manipulaci s daty pro zjištění lokace (kraje) každého zařízení. Vzhledem k různorodosti a neúplnosti dat byly zvoleny pomalejší vlastní funkce na místo funkcí z knihovny Pandas(a následného složitějšího pročišťování dat). V závěru pak bylo využito AI Copilot od Microsoftu, který pomohl přiřadit kraj k nestandardnímu a velmi různorodému zápisu adres (např. parcela dle KÚ) nebo k adrese, jejíž PSČ náleželo do dvou krajů. 
 
 #### Kapacity školských zařízení MŠ, DS, vVP - [predskolniVP.csv](output_files/predskolniVP.csv)
-V rámci třízení relevantních dat byly pro Mateřské školy vybrány zařízení ze [seznamu](zarizeni_dokumentace.txt) týkajících se pouze mateřských škol + přípravný stupěň zákl. školy speciální, který zákonně spadá pod MŠ. 
+V rámci třídění relevantních dat byly pro Mateřské školy vybrány zařízení ze [seznamu](zarizeni_dokumentace.txt) týkajících se pouze mateřských škol + přípravný stupěň zákl. školy speciální, který zákonně spadá pod MŠ. 
 
 Z důvodu nedostatku kapacit jsou v dnešní době hojně využívany i dětské skupiny, proto jsme ze stránek [MPSV](https://evidence.mpsv.cz/eEDS/index.php?list) scrapovali jejich aktuální (realtime) kapacitu. Toto scrapování lze nahradit zpracování open data JSON souboru (a dopočítat si kapacity v průběhu času), jak se později zjistilo. Pro naše demonstrativní účely to však nepotřebujeme. Na závěr nutno dodat, že tato zařízení nespadají pod MŠMT, ale v datech hrají zásadní roli. 
 
@@ -42,3 +42,6 @@ Pro zajímavost byla nahrána i data týkající se docházky cizinců (u dvojí
 
 ### Porodnost 2018-2023 - [porodnost_podr.csv](output_files/porodnost_podr.csv)
 Zdrojová data byla získána na stránkách [ČSÚ](https://csu.gov.cz/) ve formátu .xlsx ve vlastně parametrově nastavené tabulce. Následně byla data v excelu manuálně upravena dle metodiky blíže popsané v Jupyter notebooku. Ve zkratce je porodnost nutno extrahovat po kvartálech v jednotlivých rocích a dopočítat zhruba počet dětí, které budou mít následně za 3 roky právní nárok na to nastoupit do MŠ (tj. děti narozené do 31.srpna roku x + září-prosicen roku x -1). Porodnost zahrnuje i narození dětí s jiným občanstvím. 
+
+## Questions / Feedback
+Kontaktovat mě můžete na [LinkedIn](https://www.linkedin.com/in/klarabek/)
