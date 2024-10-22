@@ -1,6 +1,5 @@
 Níže uvedené bylo ručně dohledáváno(na internetu, případně přímo v datech) a poté roztřízeno. 
-Následně bude relativní správnost rozřazení dat ověřeno pomocí jednoduchých skriptů/dotazů 
-a příslušně popsáno a vysvětleno (rovnou v ipynb souboru s názvem "").
+Následně byla relativní správnost rozřazení dat ověřena.
 
 ZarizeniTyp z dat VYŘAZENO:
 Školní jídelna                                           
