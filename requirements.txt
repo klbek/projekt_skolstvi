@@ -20,7 +20,7 @@
     # Pro MacOs/Linux:
     # source nazev_prostredi/bin/activate
 
-# 5) Nainstalujte si si requirements.txt pomocí jednoho z následujících příkazů:
+# 5) Nainstalujte si requirements.txt pomocí jednoho z následujících příkazů:
 
     # Pro Windows 
     # pip install -r requirements.txt
@@ -79,7 +79,6 @@ pandas==2.2.3
 pandocfilters==1.5.1
 parse==1.20.2
 parso==0.8.4
-pip==24.2
 platformdirs==4.3.6
 prompt_toolkit==3.0.48
 psutil==6.0.0
@@ -91,34 +90,6 @@ pyquery==2.0.1
 python-dateutil==2.9.0.post0
 pytz==2024.2
 pywin32==306
-pyzmq==26.2.0
-pure_eval==0.2.3
-pyee==11.1.1
-Pygments==2.18.0
-pyppeteer==2.0.0
-pyquery==2.0.1
-python-dateutil==2.9.0.post0
-pytz==2024.2
-pywin32==306
-pyzmq==26.2.0
-Pygments==2.18.0
-pyppeteer==2.0.0
-pyquery==2.0.1
-python-dateutil==2.9.0.post0
-pytz==2024.2
-pywin32==306
-pyzmq==26.2.0
-pyquery==2.0.1
-python-dateutil==2.9.0.post0
-pytz==2024.2
-pywin32==306
-pyzmq==26.2.0
-python-dateutil==2.9.0.post0
-pytz== 2024.2
-pywin32==306
-pyzmq==26.2.0
-pywin32==306
-pyzmq==26.2.0
 pyzmq==26.2.0
 referencing==0.35.1
 requests==2.32.3
