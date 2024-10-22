@@ -13,9 +13,9 @@ Jelikož jsou dětské skupiny soukromá zařízení (byť z části dotovaná),
 ![Reálná docházka MŠ](output_files/images/realna_dochazka_MS.jpg)
 Grafy ukazují, kolik 3-letých dětí s nárokem docházet do MŠ do ní reálně nedochází. Horní graf ukazuje věkové rozložení docházky včetně dětí mladších 3-let. Spodní graf ukazuje kolik 3-letých dětí (vypočítaných dle porodnosti) má nárok chodit do MŠ a kolik jich skutečně MŠ navštěvuje, respektive nenavštěvuje (prostor mezi sloupcem a linií). 
 
-### Reálná docházka do MŠ
+### Kapacity suplované dětskými skupinami
 ![Reálná docházka MŠ](output_files/images/suplovane_kapacity_MS.jpg)
-Graf ukazuje, jak velkou docházku MŠ suplují dětské skupinky (fialová plocha). Zároveň můžeme vidět velký rozdíl mezi oficiálními kapacitami MŠ a jejich reálnou docházkou (plocha mezi modrou a fialovou linií), respektive i reálnou docházkou po započítání docházky do DS (plocha mezi růžovou čerchovanou a fialovou plnou liníí).  
+Graf ukazuje, jak velkou docházku MŠ suplují dětské skupinky (růžová plocha). Zároveň můžeme vidět velký rozdíl mezi oficiálními kapacitami MŠ a jejich reálnou docházkou (plocha mezi modrou a fialovou linií), respektive i reálnou docházkou MŠ po připočítání docházky do DS (plocha mezi růžovou čerchovanou a fialovou plnou liníí).  
 
 ### Návrhy na zlepšení 
 S daty lze dále pracovat a zjistit, kolik i 4-5letých dětí má nárok chodit do MŠ a nechodí do ní (důvody ohou být různé).
