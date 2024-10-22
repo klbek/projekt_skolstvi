@@ -1,4 +1,4 @@
-# Modelace skutečné a využívané kapacity školkých zařízení v ČR
+# Modelace skutečné a využívané kapacity školských zařízení v ČR
 
 Tento repozitář obsahuje skripty, výstupní soubory a vizualizace pro zjištění, zda jsou kapacity školkých zařízení ČR - konkrétně Mateřské školy - dostupné pro její obyvatele. Výstupní data mohou sloužit pouze pro modelaci dostupnosti kapacit pro školní rok 2023/2024[^1], pouze pro Mateřské školy a s jemným zkreslením[^2].
 
