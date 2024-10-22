@@ -6,6 +6,28 @@ Tento repozitář obsahuje skripty, výstupní soubory a vizualizace pro zjišt�
 
 [^2]: Jemným zkreslení je myšleno použití aktuálnějších dat kapacit šk. kapacit (viz. bod výše), rozpočítané porodnosti ve 3.kvartálech pro zjištění, kolik dětí je cca narozených do 31.srpna (pro výpočet nároku na MŠ za 3 roky), v pár případech nedostatečně vyplněné adresy použit Copilot od Microsoftu k přiřazení kraje (náhodně testováno, zda se jedná o správný výsledek), v případě, že školské zařízení působí ve vícero krajích (kapacity nejsou v datech členěny), tak dle vlastního uvážení jsou kapacity přiřazeny do konktrétních krajů, aby se uměle v datech nenavyšovaly kapacity. 
 
+## Výsledky
+Jelikož jsou dětské skupiny soukromá zařízení (byť z části dotovaná), jejich zájem a nutností je mít plné kapacity, aby zaplatily svůj provoz. Proto počítáme s tím, že kapacity DS = reálná docházka do DS. Zároveň nelze členit jejich docházku podle věku (jako je to u MŠ), kapacity jsou počítány na dítě. Reálně může DS navštěvovat o mnoho více dětí z různých věkových skupin v režimech 1-5x týden.
+
+### Reálná docházka do MŠ
+![Reálná docházka MŠ](output_files/images/realna_dochazka_MS.jpg)
+Grafy ukazují, kolik 3-letých dětí s nárokem docházet do MŠ do ní reálně nedochází. Horní graf ukazuje věkové rozložení docházky včetně dětí mladších 3-let. Spodní graf ukazuje kolik 3-letých dětí (vypočítaných dle porodnosti) má nárok chodit do MŠ a kolik jich skutečně MŠ navštěvuje, respektive nenavštěvuje (prostor mezi sloupcem a linií). 
+
+### Reálná docházka do MŠ
+![Reálná docházka MŠ](output_files/images/suplovane_kapacity_MS.jpg)
+Graf ukazuje, jak velkou docházku MŠ suplují dětské skupinky (fialová plocha). Zároveň můžeme vidět velký rozdíl mezi oficiálními kapacitami MŠ a jejich reálnou docházkou (plocha mezi modrou a fialovou linií), respektive i reálnou docházkou po započítání docházky do DS (plocha mezi růžovou čerchovanou a fialovou plnou liníí).  
+
+### Návrhy na zlepšení 
+S daty lze dále pracovat a zjistit, kolik i 4-5letých dětí má nárok chodit do MŠ a nechodí do ní (důvody ohou být různé).
+
+### Shrnutí
+Cílem projektu bylo zjistit a ukázat, jak jsou na tom kapacity školek a kolik míst chybí. Dle reálné kapacity bychom mohli usuzovat, že s místy není problém, avšak počet neumístěných 3-letých dětí a počet kapacit DS tomu neodpovídá.  
+
+Rozdíl mezi celkovou kapacitou MŠ a reálnou docházkou do MŠ lze vysvětlit 
+- jako rezervní místa pro případ nově přistěhovaných občanů do obce
+- vylidňování některých lokací - následná velká neobsazenost a naopak přetlak v jiných oblastech
+
+Docházku do DS lze brát jako touhu po individuálním přístupu k dítěti, ale i jako nutnost v případě potřeby návratu do práce. Tak jako tak se za docházku platí nemalé peníze (byť je z části dotovaná) a pro spoustu lidí je tak nedostupná. 
 
 ## O datech
 Během práce s daty se bohužel hlavní zdrojová (open) data ukázala jako nedostatečná pro dlouhodobé (i retrospektivní) modelování a to z důvodu jejich časové aktuálnosti (datová sada je aktualizována 3x do týdne). 
